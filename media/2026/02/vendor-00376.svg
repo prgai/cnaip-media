@@ -1,0 +1,36 @@
+<svg width="300" height="40" viewBox="0 0 300 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo Icon - scaled to match text height -->
+  <g transform="translate(5, 10) scale(0.85)">
+    <!-- Row 1 -->
+    <circle cx="4" cy="4" r="2.2" fill="#3b82f6"/>
+    <circle cx="12" cy="4" r="2.2" fill="#22d3ee"/>
+    <circle cx="20" cy="4" r="2.2" fill="#3b82f6" opacity="0.5"/>
+    <!-- Row 2 -->
+    <circle cx="4" cy="12" r="2.2" fill="#ec4899"/>
+    <circle cx="12" cy="12" r="2.5" fill="url(#dotCenterFull)"/>
+    <circle cx="20" cy="12" r="2.2" fill="#a855f7" opacity="0.6"/>
+    <!-- Row 3 -->
+    <circle cx="4" cy="20" r="2.2" fill="#3b82f6" opacity="0.5"/>
+    <circle cx="12" cy="20" r="2.2" fill="#f472b6"/>
+    <circle cx="20" cy="20" r="2.2" fill="#22d3ee" opacity="0.5"/>
+  </g>
+
+  <!-- Text -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Marcellus&amp;display=swap');
+  </style>
+  <text x="32" y="28" font-family="'Marcellus', Georgia, serif" font-size="22" font-weight="500" letter-spacing="2">
+    <tspan fill="#0f172a">GOODSTOCK</tspan><tspan fill="url(#textGradient)">.AI</tspan>
+  </text>
+
+  <defs>
+    <linearGradient id="dotCenterFull" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="textGradient" x1="170" y1="0" x2="210" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+</svg>
